@@ -28,9 +28,9 @@ This is for the redirect url to work without setting a port number(i.e. `localho
 Go to a web browser and type `localhost`.
 
 ### Features
-The redirect URL is of the form  *<hostname>*/u/*<shortUrl>*. 
+The redirect URL is of the form  `<hostname>/u/<shortUrl>`. 
 
-Going to *<hostname>*/s/*<shortUrl>* would display the counters for the link. Tracked stats are unique counts and total counts.
+Going to `<hostname>/s/<shortUrl>` would display the counters for the link. Tracked stats are unique counts and total counts.
 
 
 ## Design
