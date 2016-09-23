@@ -1,0 +1,26 @@
+{
+  "name": "carousell",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "sudo PORT=80 node ./bin/www",
+    "test": "mocha test/test.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "bootstrap": "^3.3.7",
+    "cookie-parser": "~1.4.3",
+    "crypto-js": "^3.1.6",
+    "debug": "~2.2.0",
+    "express": "~4.13.4",
+    "jade": "~1.11.0",
+    "morgan": "~1.7.0",
+    "redis": "^2.6.2",
+    "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "fakeredis": "^1.0.3",
+    "mocha": "^3.0.2",
+    "sinon": "^1.17.6"
+  }
+}

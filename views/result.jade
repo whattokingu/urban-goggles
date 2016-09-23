@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    div.container-fluid#result
+        div.row
+            div#main-display.col-md-6.col-md-offset-3
+                span Your shortened URL:&nbsp;
+                span#url-display #{redirectUrl}
+
+        div.row
+            div#secondary-display.col-md-6.col-md-offset-3
+                span You can check your url usage at:&nbsp;
+                a(href=statsUrl)
+                    span #{statsUrl}

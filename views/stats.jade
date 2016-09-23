@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    div.container-fluid#result
+        div.row
+            div.display.col-md-6.col-md-offset-3
+                div displaying visit counts for:&nbsp; #{url}
+        div.row
+            div.display.col-md-6.col-md-offset-3
+                label Unique Count:&nbsp;
+                span #{ucount}
+
+        div.row
+            div.display.col-md-6.col-md-offset-3
+                label Total Count:&nbsp;
+                span #{tcount}
