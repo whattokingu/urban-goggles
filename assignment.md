@@ -52,6 +52,7 @@ Every time the link is hit, we check if the ip address of the client is already 
 
 #### Key collisions
 There is a competing goal to using hashing to map between the URLs: 
+
 1. We want the URL to be as short as possible. 
 2. Shorter URL(the key) increases probability of key collisions.
 
